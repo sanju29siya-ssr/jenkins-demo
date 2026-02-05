@@ -1,1 +1,2 @@
 Hello Jenkins 
+Auto trigger test 
