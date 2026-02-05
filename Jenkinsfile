@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building from Jenkinsfile'
+                echo 'BUILD STAGE - Modified Jenkinsfile'
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Testing from Jenkinsfile'
+                echo 'TEST STAGE - Modified Jenkinsfile'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'Deploying from Jenkinsfile'
+                echo 'DEPLOY STAGE - Modified Jenkinsfile'
             }
         }
     }
